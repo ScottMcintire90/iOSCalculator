@@ -54,14 +54,22 @@
 		4BB9F7341D8C666B001B99E5 /* iOSCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				4BB9F7351D8C666B001B99E5 /* AppDelegate.swift */,
+				4BB9F7471D8C6E33001B99E5 /* Supporting Files */,
 				4BB9F7371D8C666B001B99E5 /* ViewController.swift */,
 				4BB9F7391D8C666C001B99E5 /* Main.storyboard */,
+			);
+			path = iOSCalculator;
+			sourceTree = "<group>";
+		};
+		4BB9F7471D8C6E33001B99E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB9F7351D8C666B001B99E5 /* AppDelegate.swift */,
 				4BB9F73C1D8C666C001B99E5 /* Assets.xcassets */,
 				4BB9F73E1D8C666C001B99E5 /* LaunchScreen.storyboard */,
 				4BB9F7411D8C666C001B99E5 /* Info.plist */,
 			);
-			path = iOSCalculator;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +103,7 @@
 				TargetAttributes = {
 					4BB9F7311D8C666B001B99E5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D8KWH5N2NL;
 					};
 				};
 			};
@@ -250,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ScottMcIntire.iOSCalculator;
@@ -261,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = iOSCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ScottMcIntire.iOSCalculator;
